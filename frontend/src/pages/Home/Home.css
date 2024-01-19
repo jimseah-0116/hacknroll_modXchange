@@ -1,0 +1,9 @@
+.home {
+    padding: 20px; /* Adjust the padding value as needed */
+}
+
+.slots {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* 3 slots per row, adjust minmax value as needed */
+    gap: 20px; /* Adjust the gap between slots as needed */
+}

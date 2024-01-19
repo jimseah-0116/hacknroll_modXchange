@@ -1,0 +1,63 @@
+/* SlotDetails container */
+.slotDetails {
+    border: 1px solid #ccc;
+    background-color: black;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    transition: box-shadow 0.3s ease; /* Add a smooth transition for the box shadow */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Add drop shadow on hover */
+  .slotDetails:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Module title style */
+  .slotDetails h2 {
+    color: white;
+    margin-top: 0; /* Remove default margin */
+  }
+  
+  /* Style for Type and Posted By */
+  .slotDetails p {
+    color: white;
+    margin-top: 0;
+  }
+  
+  /* Style for 'have' and 'want' divs container */
+  .slotDetails .have-want-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  /* Style for 'have' and 'want' divs */
+  .slotDetails .have,
+  .slotDetails .want {
+    padding: 2px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    width: 48%; /* Adjust the width as needed */
+  }
+  
+  /* Style for 'have' and 'want' divs' headings */
+  .slotDetails .have h3,
+  .slotDetails .want h3 {
+    text-align: center;
+    margin: 0; /* Remove margin for a cleaner look */
+  }
+  
+  /* Style for 'have' and 'want' divs' child paragraphs */
+  .slotDetails .have p,
+  .slotDetails .want p {
+    color: black;
+    margin: 5px 0;
+  }
+  
+  /* Posted By style */
+  .slotDetails p:last-child {
+    margin-top: 10px; /* Add margin at the bottom for 'Posted by' */
+  }
+  

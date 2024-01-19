@@ -1,0 +1,44 @@
+/* Navbar container */
+.navbar {
+  background-color: #000000;
+  color: #fff;
+  padding: 10px;
+  display: flex; /* Use flexbox to align items in a row */
+  justify-content: left; /* Add space between the logo and links */
+  align-items: center; /* Center items vertically */
+}
+
+/* Style the logo link */
+.navbar h2 {
+  font-weight: lighter;
+  margin: 0;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #fff;
+  transition: font-weight 0.3s ease; /* Add a smooth transition effect for font-weight */
+}
+
+.navbar h1 {
+  margin: 0;
+  color: hotpink;
+}
+
+/* Bold the logo link on hover */
+.navbar h2:hover {
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+/* Style other links */
+.navbar a {
+  margin-left: 50px; /* Add space between links */
+  font-size: 1rem; /* Set a smaller font size for other links */
+  color: #ccc; /* Set a different color for other links */
+  text-decoration: none;
+  transition: color 0.3s ease; /* Add a smooth transition effect for color */
+}
+
+/* Change color on hover for other links */
+.navbar a:hover {
+  color: #fff; /* Change color on hover */
+}
